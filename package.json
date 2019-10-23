@@ -6,7 +6,8 @@
   "dependencies": {
     "@hapi/joi": "^16.1.7",
     "express": "^4.17.1",
-    "init": "^0.1.2"
+    "init": "^0.1.2",
+    "mongoose": "^5.7.6"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,10 +17,15 @@
     "type": "git",
     "url": "git+https://github.com/Amita999/expressDemo.git"
   },
-  "author": "",
+  "author": "Amita",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Amita999/expressDemo/issues"
   },
-  "homepage": "https://github.com/Amita999/expressDemo#readme"
+  "homepage": "https://github.com/Amita999/expressDemo#readme",
+  "keywords": [
+    "express",
+    "with",
+    "mongo"
+  ]
 }
