@@ -2,6 +2,7 @@ let express = require("express");
 let app = express();
 let mongoose = require("mongoose");
 let albums = require("./routes/album.mongo");
+let port = 4500;
 mongoose
   .connect("mongodb://localhost/ractiseDb", {
     useNewUrlParser: true,
@@ -17,8 +18,9 @@ let albumSchema = new mongoose.Schema({
 });
 
 let Album = mongoose.model("albums", albumSchema, "albums");
-app.listen(4500, () => console.log("App is working on port 4500"));
+app.listen(port, () => console.log(`App is working on port ${port}`));
 app.use("api/albums", albums);
+
 //Add albums
 // async function AddAlbums() {
 //   let newAlbum = new Album({
