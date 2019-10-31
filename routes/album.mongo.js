@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Album = require("../database/album.schema");
+const Album = require("../database/albumschema");
 const Joi = require("@hapi/joi");
 //album search by id
 router.get("/:id", async (req, res) => {
