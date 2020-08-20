@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@hapi/joi": "^16.1.7",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "init": "^0.1.2",
